@@ -64,7 +64,7 @@
 #define GPIOA_TIM1_CH1              8U
 #define GPIOA_TIM1_CH2              9U
 #define GPIOA_SPI1_PWR              10U
-#define GPIOA_USB_DM                11U
+#define GPIOA_USB_DM                11U /* FIXME: Change to allow RS-485 full duplex */
 #define GPIOA_USB_DP                12U
 #define GPIOA_JTAG_TMS              13U
 #define GPIOA_JTAG_TCK              14U
@@ -93,7 +93,7 @@
 #define GPIOC_ADC12                 2U /* set PCB JP1 to enable */
 #define GPIOC_SPI1_ENC3_STATUS      3U
 #define GPIOC_ADC13                 3U /* set PCB JP2 to enable */
-#define GPIOC_USP_P                 4U
+#define GPIOC_USB_P                 4U
 #define GPIOC_SPI1_ENC4_NSS         4U /* open H405 SJ USBP_E to enable */
 #define GPIOC_ADC14                 4U /* open H405 SJ USBP_E AND set PCB JP3 to enable */
 #define GPIOC_SPI1_ENC4_STATUS      5U
