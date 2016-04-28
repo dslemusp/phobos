@@ -10,7 +10,7 @@ The version used is 5.3-2016-q1.
 Some examples may not build as the option `-fsingle-precision-constant` is not
 standard compliant. The issue is documented
 [here](https://bugs.launchpad.net/gcc-arm-embedded/+bug/1452470) and contains a
-fix.
+fix (file `random.tcc` under `arm-none-eabi/include/c++/4.9.3/bits/`  has to be modified as described [here](https://gcc.gnu.org/bugzilla/attachment.cgi?id=36237&action=diff).
 
 As most computers will be running a 64-bit kernel, libraries for ia32/i386
 architecture will need to be installed if not already. For recent versions of
