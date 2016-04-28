@@ -5,8 +5,9 @@
 
 ## Clone this repo
 
-Fork this repo into your GitHub account and clone it in your computer. Create a folder named `/build` in the root of the cloned repo `mkdir build` 
+Fork the master [repo](https://github.com/oliverlee/phobos) into your GitHub account and clone it in your computer. Create a folder named `/build` in the root of the cloned repo `mkdir build` 
 
+Once you have cloned the forked repo in your pc, it is good practice to keep the fork synced with the master repo. To do this create a remote link to the master `git remote add oliverlee git@github.com:oliverlee/phobos.git`. You can now update your local repo with the latest modifications made in the master repo using `git fetch oliverlee`. For furthre reading about remote repos please follow this [link](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes)
 ## Toolchain Installation 
 * Install cmake, eigen, boost and OpenOCD using brew `brew install cmake open-ocd eigen boost`
 * Download the latest [GCC ARM Embedded toolchain](https://launchpad.net/gcc-arm-embedded/5.0/5-2016-q1-update/+download/gcc-arm-none-eabi-5_3-2016q1-20160330-mac.tar.bz2) (we are currently using version **5_3-2016q1**), and extract it in `tar [yourdownloadedfile] ~/toolchain/`.
